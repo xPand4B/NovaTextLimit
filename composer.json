@@ -1,0 +1,39 @@
+{
+    "name": "eric-heinzl/nova-text-limit",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "text"
+    ],
+    "authors": [
+        {
+            "name": "Eric Heinzl",
+            "email": "xpand.4beatz@gmail.com",
+            "homepage": "https://xpand4b.de",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EricHeinzl\\NovaTextLimit\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EricHeinzl\\NovaTextLimit\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
